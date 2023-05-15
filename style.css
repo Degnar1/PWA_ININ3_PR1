@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex_column_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-image: url('porsche-911-gt3-ge72da0cf9_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+header a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.samochody {
+    padding: 20px;
+
+}
+
+.samochody img{
+    width: 100%;
+}
