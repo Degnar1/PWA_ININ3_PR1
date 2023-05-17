@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-image: url('porsche-911-gt3-ge72da0cf9_1920.jpg');
+    background-image: url('./img/porsche.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,4 +47,8 @@ header a{
 
 .samochody img{
     width: 100%;
+}
+
+.single_method {
+    margin-bottom: 10px auto;
 }
