@@ -9,7 +9,7 @@
     "description": "Blog motoryzacyjny w ramach projektu WSB",
     "icons": [
         {
-            "src": "./img/logo.png",
+            "src": "./img/nika.png",
             "sizes": "512x512",
             "type": "image/png"
         }
