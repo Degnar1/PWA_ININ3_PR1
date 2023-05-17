@@ -3,7 +3,7 @@
     "background_color": "#8f8e8e",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "degnar1.github.io/PWA_ININ3_PR1/",
+    "start_url": "https://degnar1.github.io/PWA_ININ3_PR1/",
     "name": "Blog motoryzacyjny",
     "short_name": "Moto-blog",
     "description": "Blog motoryzacyjny w ramach projektu WSB",
