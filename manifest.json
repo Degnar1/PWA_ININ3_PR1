@@ -3,7 +3,7 @@
     "background_color": "#8f8e8e",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "/PWA_ININ3_PR1/index.html",
+    "start_url": "./PWA_ININ3_PR1/index.html",
     "name": "Blog motoryzacyjny",
     "short_name": "Moto-blog",
     "description": "Blog o znaczkach motoryzacyjny w ramach projektu WSB",
