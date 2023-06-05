@@ -6,13 +6,6 @@
     "start_url": "/https://degnar1.github.io/PWA_ININ3_PR1/index.html",
     "name": "Blog motoryzacyjny",
     "short_name": "Moto-blog",
-    "description": "Blog o znaczkach motoryzacyjny w ramach projektu WSB",
-    "icons": [
-      {
-        "src": "./img/logo.png",
-        "sizes": "200x200",
-        "type": "image/png"
-      }
-    ]
+    "description": "Blog o znaczkach motoryzacyjny w ramach projektu WSB"
   }
   
