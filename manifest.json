@@ -5,7 +5,7 @@
     "background_color": "#164e24",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "degnar1.github.io/PWA_ININ3_PR1/",
+    "start_url": "degnar1.github.io/PWA_ININ3_PR1/index.html",
     "description": "Blog o kawie w ramach projektu ESB",
     "icons": [
         {
