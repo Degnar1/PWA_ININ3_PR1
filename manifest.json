@@ -9,7 +9,7 @@
     "description": "Blog o znaczkach motoryzacyjny w ramach projektu WSB",
     "icons": [
       {
-        "src": "/img/test.png",
+        "src": "./test.png",
         "sizes": "512x512",
         "type": "image/png"
       }
