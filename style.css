@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,19 +20,19 @@ header {
     align-items: center;
     padding: 30px;
     background-image: url('./img/porsche.jpg');
-    background-position: 50% center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 header h1 {
     margin-bottom: 10px;
     border-bottom: 1px solid white;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
-header a {
+header a{
     background-color: black;
     color: white;
     text-decoration: none;
@@ -40,12 +40,8 @@ header a {
     border-radius: 15px;
 }
 
-.coffee {
-    padding: 15px;
-}
-
-.coffee img {
-    width: 100%;
+.samochody {
+    padding: 20px;
 }
 
 .single_method {
