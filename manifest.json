@@ -1,8 +1,8 @@
 {
     "name": "Blog o kawie",
     "short_name": "coffee blog",
-    "theme_color": "#164e24",
-    "background_color": "#164e24",
+    "theme_color": "#8f8e8e",
+    "background_color": "#8f8e8e",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "degnar1.github.io/PWA_ININ3_PR1/index.html",
