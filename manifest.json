@@ -9,8 +9,9 @@
     "description": "Blog motoryzacyjny w ramach projektu WSB",
     "icons": [
         {
-            "src": "/PWA_ININ3_PR1/icon-512x512.png",
-            "sizes": "512x512"
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }
