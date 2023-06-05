@@ -1,15 +1,15 @@
 {
-    "theme_color": "#8f8e8e",
-    "background_color": "#8f8e8e",
+    "name": "Blog o kawie",
+    "short_name": "coffee blog",
+    "theme_color": "#164e24",
+    "background_color": "#164e24",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "degnar1.github.io/PWA_ININ3_PR1/",
-    "name": "Blog motoryzacyjny",
-    "short_name": "Moto-blog",
-    "description": "Blog motoryzacyjny w ramach projektu WSB",
+    "description": "Blog o kawie w ramach projektu ESB",
     "icons": [
         {
-            "src": "./icon-512x512.png",
+            "src": "./img/logo.png",
             "sizes": "512x512",
             "type": "image/png"
         }
