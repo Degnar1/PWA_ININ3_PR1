@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,22 +20,26 @@ header {
     align-items: center;
     padding: 30px;
     background-image: url('./img/porsche.jpg');
-    background-position: center;
+    background-position: 50% center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header h1 {
     margin-bottom: 10px;
     border-bottom: 1px solid white;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
-header a{
+header a {
     background-color: black;
     color: white;
     text-decoration: none;
     padding: 20px;
     border-radius: 15px;
+}
+
+.single_method {
+    margin-bottom: 10px auto;
 }
