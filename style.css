@@ -40,6 +40,14 @@ header a {
     border-radius: 15px;
 }
 
+.ferrari {
+    padding: 15px;
+}
+
+.ferrari img {
+    width: 100%;
+}
+
 .single_method {
     margin-bottom: 10px auto;
 }
