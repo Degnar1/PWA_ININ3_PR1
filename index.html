@@ -17,32 +17,63 @@
 </head> 
 
 <body>
-    <header>
-        <div>
-            <h1>Blog motoryzacyjny test 6</h1>
+    <header class="header-image1" id="test1">
+        <div class="text" id="text">
+            <h1>Blog motoryzacyjny</h1>
             <h2>Znaczenie loga różnych marek</h2>
         </div>
         <a href="#main">Zobacz więcej</a>
     </header>
+
+    <header class="header-image2" id="test2">
+        <img src="./img/porsche1.png" alt="Zdjęcie 2">
+    </header>
+
+
     <main id="main">
         <section class="samochody flex_column_container">
             <h2>Samochody</h2>
-            <div>
-                <div class="single_method">
+            <div class="all_places">
+                <div class="single_place">
                     <h3>Ferrari</h3>
                     <img src="./img/ferrari.jpg" alt="">
                     <p> Logo producenta pochodzi z emblematu, jaki miał na swoim samolocie włoski pilot z czasów I wojny światowej, Francesco Baracca. Enzo Ferrari, będąc pod wrażeniem jego umiejętności, użył tego samego symbolu czarnego rumaka, stojącego na dwóch tylnych nogach. Taki koń jest uważany we Włoszech za symbol szczęścia.</p>
                 </div>
-                <div class="single_method">
+                <div class="single_place">
                     <h3>Lamborghini</h3>
                     <img src="./img/lamborghini.jpg" alt="lamborghini">
                     <p>Pojawienie się nacierającego byka w logo Lamborghini to zasługa fascynacji walkami byków, a także przyjaźni z ich znanym hodowcą – Don Eduardo Miurą. Swoją drogą Ferruccio urodził się jako zodiakalny byk, tak więc pomysł na logo firmy nasunął się sam. Sam znaczek, przez cały okres swojej ponad 50-letniej historii, nie ulegał w zasadzie żadnym modyfikacjom.</p>
                 </div>
+                <div class="single_place">
+                    <h4>Wulkan Irazu</h4>
+                    <img src="./img/bmw.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, incidunt vero. Molestias
+                        nemo quod rem a voluptatum aperiam ullam accusantium nihil libero possimus, accusamus dicta ab
+                        reiciendis. Officiis, esse aspernatur!</p>
+                </div>
+                <div class="single_place">
+                    <h4>Wulkan Irazu</h4>
+                    <img src="./img/bmw.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, incidunt vero. Molestias
+                        nemo quod rem a voluptatum aperiam ullam accusantium nihil libero possimus, accusamus dicta ab
+                        reiciendis. Officiis, esse aspernatur!</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Projekt WSB</p>
+    </footer>
     <script src="sw.js"></script>
+    <script type="text/javascript">
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            text.style.marginTop = value * 0.8 + 'px';
+        })
+    </script>
 </body>
 
 </html>
