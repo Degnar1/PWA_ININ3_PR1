@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 html {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
@@ -109,16 +110,6 @@ header a {
     width: 100%;
 }
 
-.single_method img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-.single_method p{
-    line-height: 1.8;
-}
-
 .single_place {
     margin: 10px 0;
 }
@@ -146,6 +137,9 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        justify-content: center;
+        margin-left: 200px;
+        margin-right: 150px;
     }
 
     .single_place {
@@ -154,38 +148,16 @@ footer {
     }
 
     .single_place img {
-        height: 300px;
+        height: 600px;
     }
 }
 
 @media (min-width: 1200px) {
     .single_place {
-        width: 30%;
+        width: 80%;
     }
 }
 
 .all_places{
     padding: 10px;
-}
-
-a[href="ferrari.html"] {
-    background-color: black;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 10px;
-    color: #bbbbbb;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-a[href="hyundai.html"] {
-    background-color: black;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 10px;
-    color: #bbbbbb;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
 }
