@@ -178,8 +178,29 @@ a[href="ferrari.html"] {
     margin: 0 auto;
     text-align: center;
 }
+a[href="lamborghini.html"] {
+    background-color: black;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: #bbbbbb;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 
 a[href="hyundai.html"] {
+    background-color: black;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: #bbbbbb;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a[href="bmw.html"] {
     background-color: black;
     text-decoration: none;
     padding: 20px;

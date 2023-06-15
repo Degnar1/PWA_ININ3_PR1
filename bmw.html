@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog motoryzacyjny</title>
+
+    <meta name="theme-color" content="#8f8e8e">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylebmw.css">
+</head> 
+
+<body>
+    <header class="header-image1" id="test1">
+        <div class="text" id="text">
+            <h1>Blog motoryzacyjny</h1>
+            <h2>Znaczenie loga różnych marek</h2>
+        </div>
+        <a href="#main">Zobacz więcej</a>
+    </header>
+
+    <header class="header-image2" id="test2">
+        <img src="./img/porsche1.png" alt="Zdjęcie 2">
+    </header>
+
+
+    <main id="main">
+        <section class="samochody flex_column_container">
+            <h2>BMW</h2>
+            <div class="all_places">
+                <div class="single_place">
+                    <img src="./img/bmw.jpg" alt="">
+                    <p>BMW (z niem. Bayerische Motoren Werke, czyli Bawarskie Zakłady Silnikowe) od ponad 90
+                         lat niezmiennie sygnuje swoje pojazdy znanym każdemu logiem. Okrągła, biało-niebieska
+                          tarcza, czarna obwódka i napis „BMW” do dziś oznacza, że mamy do czynienia z
+                           prawdziwymi perełkami motoryzacji. Jednak skąd taki pomysł na loga aut z Bawarii?</p>
+                    <img src="./img/bmw1.jpg" alt="" class="hyundaiimg">
+                    <p>Istnieją dwie teorie na ten temat. Pierwsza (bardziej znana) mówi, że logotyp symbolizuje
+                         kręcące się śmigło samolotu. Sensowne wytłumaczenie, jeśli weźmiemy pod uwagę, że firma
+                          zaczynała jako Rapp-Motorenwerke i pierwotnie produkowała silniki samolotowe. Wedle 
+                          drugiej teorii biaro-niebieska tarcza symbolizuje flagę Bawarii, która w oryginale 
+                          jest szachownicą właśnie w tych kolorach. Jednak ta teza jest nieco kontrowersyjna.
+                          Dlaczego?</p>
+                    <img src="./img/bmw2.jpg" alt="">
+                    <p>Ponieważ gdy logo BMW powstało, niemiecka ustawa o znakach towarowych zabraniała 
+                        lokowania w nich herbów czy innych symboli narodowych. Dlatego też władze bawarskiej
+                         firmy utrzymują, że dwukolorowa tarcza imituje śmigło samolotu, a podobieństwo do
+                          flagi Bawarii jest „całkowicie przypadkowe”.</p>
+                    <div class="back" ><a href="index.html" class="back-button">Cofnij do strony głównej</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Projekt WSB</p>
+    </footer>
+    <script src="sw.js"></script>
+    <script type="text/javascript">
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            text.style.marginTop = value * 1.5 + 'px';
+        })
+    </script>
+</body>
+
+</html>
